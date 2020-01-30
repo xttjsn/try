@@ -1,0 +1,14 @@
+[package]
+name = "cstring2struct"
+version = "0.1.0"
+authors = ["Xiaoting Tang <xttjsn@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nc = "0.4.7"
+libc = "0.2.66"
+bincode = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde-big-array = { git = "https://github.com/xttjsn/serde-big-array" }
