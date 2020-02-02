@@ -1,0 +1,25 @@
+[package]
+name = "sysjack"
+version = "0.1.0"
+authors = ["Xiaoting Tang <xttjsn@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "sysjack"
+path = "src/lib.rs"
+
+[dependencies]
+nc = "0.4.7"
+getopts = "0.2.21"
+nix = "0.16.1"
+is_executable = "0.1.2"
+libc = "0.2.66"
+errno = "0.2.4"
+derive-new = "0.5.8"
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1.2.1"
+byte-slice-cast = "0.3.5"
+serde-big-array = "0.2.0"
+cfg-if = "0.1.10"
